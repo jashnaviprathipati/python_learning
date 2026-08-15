@@ -10,9 +10,7 @@ print([1,2,3] * 4)
 print(*[1,2,43])
 print([1,2,3] + (1,2,3))
 print([1,2,3] + 'dog')
-
-
-Relational and Logical Operators:
+#Relational and Logical Operators:
 print(10 > 5 and 20 < 30)
 print(10 > 20 and 5 < 10)
 print(not 1 == 1)
@@ -21,13 +19,13 @@ print(1 > 2 > 3)
 print('abc' > 'def')
 print([1,2,3] < [1,3,4])
 
-assignment and walrus operator:
+#assignment and walrus operator:
 print(a=10)
 print(a:=10)
 if (n := 34) > 10:
    print(n)
 
-Identity and equality operators:
+#Identity and equality operators:
 a = [1,2,3]
 b = [1,2,3]
 print(a==b)
@@ -43,14 +41,8 @@ print(a is b)
 
 
 
-Membership operator
+#Membership operator
 a = [1,2,3,4,5]
 print(6 in a)
 print(6 not in a)
 print('abc' in 'abcde')
-
-
-
-
-
-
